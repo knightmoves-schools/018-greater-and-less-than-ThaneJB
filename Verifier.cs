@@ -23,7 +23,7 @@ public class Verifier
             return "";
     }
     
-    public string GoldenYears(int age){
+    public string IsGoldenYears(int age){
         if (age >= 65){
             return "golden years";
         }
